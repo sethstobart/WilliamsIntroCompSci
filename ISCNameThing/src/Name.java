@@ -1,5 +1,12 @@
 import java.util.Scanner;
 
+/* Programmer: Seth Stobart
+ * Date: 2/26/2018
+ * Project: 2.6
+ * File Name: Name.java
+ * Description: Repeats a name an input of times
+ */
+
 public class Name {
 	
 	private static Scanner keyboard = new Scanner(System.in);
