@@ -14,16 +14,23 @@ public class LoopSum {
 	public static void main(String [] args) {
 		int num;
 		int sum = 0;
+		int counter = 1;
 		
 		do {
 			System.out.print("Enter a positive integer under 10: ");
 			num = keyboard.nextInt();
 		} while (num >= 10 || num <= 0);
 		
-		for (int count = 1; count < num; count++) {
+		while (counter < num) {
+			System.out.print(counter + " + ");
+			sum = sum + counter;
+			counter++;
+		}
+		
+		/*for (int count = 1; count < num; count++) {
 			System.out.print(count + " + ");
 			sum = sum + count;
-		}
+		}*/
 		
 		System.out.print(num + " = " + (sum + num));
 	}
