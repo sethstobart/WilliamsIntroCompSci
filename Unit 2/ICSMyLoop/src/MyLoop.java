@@ -24,7 +24,7 @@ public class MyLoop {
 		do {
 			System.out.println("Enter a positive number smaller than " + num + ": ");
 			increment = keyboard.nextDouble();
-		} while (increment > num || increment < 0);
+		} while (increment > num || increment < 1);
 		
 		System.out.print("MyLoop = ");
 		
